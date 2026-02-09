@@ -1,26 +1,45 @@
 .navBar {
-display: flex;
-background-color: #205691;
-justify-content: space-around;
-align-items: center;
+    display: flex;
+    background-color: #205691;
+    justify-content: space-around;
+    align-items: center;
     height: 15vh;
 
-ul{
-    display: flex;
-    justify-content: space-between;
-    width: 60%; 
-}
+    ul {
+        display: flex;
+        justify-content: space-between;
+        width: 60%;
+    }
 
-a{
-    color: white;
-    font-size: 1.75rem;
-}
+    a {
+        color: white;
+        font-size: 1.75rem;
+    }
 
 
     .imgPerfil {
         height: 10vh;
         border-radius: 100%;
         border: solid 5px #00AAFF;
+    }
+
+}
+
+
+@media (min-width: 201px) and (max-width: 500px) {
+
+    .navBar {
+        a {
+            font-size: 0.8rem;
+        }
+
+        img {
+            height: 4vh;
+        }
+
+        .imgPerfil {
+            height: 6vh;
+        }
     }
 
 }

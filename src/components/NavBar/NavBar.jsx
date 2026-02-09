@@ -1,14 +1,11 @@
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
 
-import Inicio from '../Inicio/inicio'
+import Inicio from '../Inicio/Inicio'
 import AcoesDaConnect from "../AcoesDaConnect/AcoesDaConnect"
 import QuemSomos from "../QuemSomos/QuemSomos"
 import Perfil from "../Perfil/Perfil"
 
 import styles from './NavBar.module.scss'
-
-
-
 
 
 import logo from '../../assets/logo.png'

@@ -1,0 +1,72 @@
+.containerPerfil {
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+
+    article {
+        border: solid #efeeea;
+        border-radius: 16px;
+        display: flex;
+        height: 50vh;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    img {
+        height: 30vh;
+        border-radius: 100%;
+    }
+}
+
+.cardInfo {
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 40vh;
+    align-items: center;
+h2{
+    font-size: 1.85rem;
+
+}
+
+h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #278733;
+}
+.paragrafoSobreMim{
+    text-align: center;
+    
+width: 80%;
+}
+}
+
+
+address{
+display: flex;
+justify-content: space-between;
+width: 70%;
+font-size: 0.85rem;
+
+
+
+}
+
+
+.listaInteresse{
+ display: flex;
+ justify-content: space-evenly;
+ width: 70%;
+
+ li{
+    color: #278733;
+    font-size: 0.75rem;
+    background-color:#d4e7d6 ;
+    font-weight: 600;
+padding: 0.8;
+ }
+
+
+}
